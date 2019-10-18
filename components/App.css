@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.header {
+  background-color: #26282b;
+  display: flex;
+  padding-left: 16px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 10px;
+}
+
+.nav__link_active {
+  color: #6584c5;
+  background-color: #2c2f35;
+}
+
+.header__logout {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.header__logout__caption {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.header__logout__user {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0 10px;
+}
+
+.header__logout__button {
+  color: #6584c5;
+  cursor: pointer;
+  border-bottom: 1px dotted #6584c5;
+}
+
+.main {
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+.signup__form, .login__form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.signup__form__button, .login__form__button {
+  padding: 2px 4px;
+  margin: 4px 0;
+}
+
+.signup__form__label, .login__form__label {
+  margin-bottom: 6px;
+}
+
+.signup__exist__button, .login__unexist__button {
+  color: #6584c5;
+  cursor: pointer;
+  border-bottom: 1px dotted #6584c5;
+}
+
+.signup__message {
+  font-weight: 700;
+  color: #6584c5;}
+
+.login__err-message, .secret__err-message {
+  font-weight: 700;
+  color: #e23939;
+}
